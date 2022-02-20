@@ -181,7 +181,7 @@ apt-get -y install mysql-client
 echo -e "\n DOWNLOAD ASTERISK E DEPENDENCIAS\n"
 
 
-mkdir asterisk
+mkdir ~/asterisk
 cd asterisk
 wget -cO - https://downloads.asterisk.org/pub/telephony/asterisk/asterisk-18.10.0.tar.gz > asterisk.tar.gz
 wget -cO - https://downloads.asterisk.org/pub/telephony/libpri/libpri-1.6.0.tar.gz > libpri.tar.gz
