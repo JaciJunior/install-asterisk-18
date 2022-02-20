@@ -218,3 +218,7 @@ make install-logrotate
 echo -e "\n INICIANDO SERVICO ASTERISK\n"
 /etc/init.d/asterisk start
 echo -e "\n INSTALACAO FINALIZADA\n"
+echo -e "\n REINICIANDO \n"
+
+sleep 5
+reboot -h now
