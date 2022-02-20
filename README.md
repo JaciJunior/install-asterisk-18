@@ -1,4 +1,4 @@
-# install-asterisk-18
+# install-asterisk-18 DEBIAN 10
 
 clone arquivo .sh
 
