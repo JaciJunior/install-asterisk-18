@@ -194,7 +194,7 @@ tar -zxvf libpri.tar.gz
 tar -zxvf dahdi.tar.gz
 
 echo -e "\n INSTALANDO DAHDI\n"
-cd ~/dahdi-linux-complete-3.1.0+3.1.0
+cd ~/asterisk/dahdi-linux-complete-3.1.0+3.1.0
 make all
 make install
 
