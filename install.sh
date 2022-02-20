@@ -182,7 +182,7 @@ echo -e "\n DOWNLOAD ASTERISK E DEPENDENCIAS\n"
 
 
 mkdir ~/asterisk
-cd asterisk
+cd ~/asterisk
 wget -cO - https://downloads.asterisk.org/pub/telephony/asterisk/asterisk-18.10.0.tar.gz > asterisk.tar.gz
 wget -cO - https://downloads.asterisk.org/pub/telephony/libpri/libpri-1.6.0.tar.gz > libpri.tar.gz
 wget -cO - https://downloads.asterisk.org/pub/telephony/dahdi-linux-complete/dahdi-linux-complete-3.1.0+3.1.0.tar.gz > dahdi.tar.gz
