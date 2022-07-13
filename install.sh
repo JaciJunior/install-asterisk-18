@@ -212,7 +212,7 @@ make
 make install
 make samples
 make config
-/etc/init.d/asterisk
+/etc/init.d/asterisk start
 make install-logrotate
 
 echo -e "\n INICIANDO SERVICO ASTERISK\n"
