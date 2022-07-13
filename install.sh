@@ -206,7 +206,7 @@ make
 make install
 
 echo -e "\n INSTALANDO ASTERISK\n"
-cd ~/asterisk/asterisk-18.10.0
+cd ~/asterisk/asterisk-18.13.0
 ./configure
 make
 make install
